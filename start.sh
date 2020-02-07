@@ -1,7 +1,7 @@
 #！/bin/bash
-if [ ! -f /bot/JMusicBot-${VAR}-All.jar ]
-then
-	wget -P/bot https://github.com/jagrosh/MusicBot/releases/download/${VAR}/JMusicBot-${VAR}-All.jar;
-fi
 cd bot;
-java -server -jar JMusicBot-${VAR}.jar nogui;
+if [ ! -f JMusicBot-${VAR}-All.jar ]
+then
+	wget -P https://github.com/jagrosh/MusicBot/releases/download/${VAR}/JMusicBot-${VAR}-All.jar;
+fi
+java -server -jar JMusicBot-${VAR}-All.jar nogui;
