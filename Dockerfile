@@ -1,6 +1,6 @@
-FROM ubuntu:16.04
+FROM ubuntu:20.04
 
-MAINTAINER cocomine <roguish.6888467468@gmail.com>
+MAINTAINER recrudesce <recrudesce@gmail.com>
 
 ENV JAVA_HOME /usr/lib/jvm/java-8
 ENV VAR 0.3.6
