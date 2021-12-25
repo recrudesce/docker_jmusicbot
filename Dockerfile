@@ -15,4 +15,5 @@ RUN    chmod +x start.sh
 WORKDIR /bot
 VOLUME /bot
 
+CMD mv /start.sh /bot/start.sh
 CMD ./start.sh
