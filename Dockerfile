@@ -16,4 +16,4 @@ WORKDIR /bot
 VOLUME /bot
 
 CMD mv /start.sh /bot/start.sh
-CMD ./start.sh
+CMD /bot/start.sh
